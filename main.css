@@ -1,0 +1,260 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  justify-content: center;
+  color: rgb(183, 77, 19);
+}
+
+.day-1-logo {
+  width: 55px;
+  height: 25px;
+}
+
+.day-1-shoe1 {
+  width: 489px;
+  height: 265px;
+  padding-left: 160px;
+}
+
+.nav-container {
+  border-bottom: 2px solid black;
+  width: 1258px;
+}
+
+.nav-bar {
+  background-color: white;
+  padding: 10px;
+  height: 60px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.bottomNav-right {
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+h5 {
+  color: white;
+  font-size: 32px;
+  height: 25px;
+}
+
+.arrow {
+  padding-left: 160px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+.container {
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    rgb(193, 20, 127),
+    rgb(225, 83, 7)
+  );
+  height: 414px;
+  justify-content: space-around;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgb(193, 20, 127),
+    rgb(225, 83, 7)
+  );
+}
+
+.shoe2 {
+  display: flex;
+  width: 290px;
+  height: 230px;
+  padding-top: 50px;
+  margin-left: 90px;
+}
+
+.shoe3 {
+  display: flex;
+  width: 290px;
+  height: 230px;
+  padding-top: 50px;
+}
+
+.shoe4 {
+  display: flex;
+  width: 290px;
+  height: 230px;
+  padding-top: 50px;
+  margin-right: 90px;
+}
+
+p {
+  color: white;
+}
+
+.price {
+  text-align: start;
+  display: inline;
+}
+
+.sheree {
+  font: italic 1.2rem "Fira Sans", serif;
+  text-align: center;
+}
+
+.sheree2 {
+  font: italic 1.2rem "Fira Sans", serif;
+  text-align: left;
+}
+
+.dotted-line {
+  border-top: 1px dashed #000;
+  width: 60%;
+  height: 20;
+}
+
+aside {
+  width: 40px;
+  padding-left: 20px;
+  float: right;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-right: 80px;
+  padding-right: 220px;
+}
+
+.size {
+  display: flex;
+  display: inline;
+}
+
+h2 {
+  color: white;
+  text-align: left;
+}
+
+.lorem {
+  color: white;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  width: 392px;
+}
+
+.reviews {
+  color: rgb(41, 36, 36);
+  float: right;
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: serif;
+}
+
+.money {
+  float: left;
+  color: white;
+  font-size: 25px;
+}
+
+.cents {
+  font-size: 15px;
+  margin-left: 3px;
+  position: relative;
+  top: -7px;
+}
+
+.cents2 {
+  font-size: 15px;
+  margin-left: 3px;
+  position: relative;
+  top: -6px;
+}
+
+button {
+  width: 100px;
+  height: 44px;
+  border-radius: 12px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.topic {
+  padding-left: 180px;
+}
+
+.content {
+  padding-left: 180px;
+}
+
+.product {
+  padding-left: 180px;
+  padding-top: 35px;
+  font-weight: bold;
+  color: rgb(183, 77, 19);
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.checked {
+  color: to right, rgb(177, 4, 111), rgb(183, 77, 19);
+}
+
+/* .lastContainer {
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    rgb(193, 20, 127),
+    rgb(225, 83, 7)
+  );
+  height: 352px;
+  width: 1264px;
+} */
+
+.shoes {
+  display: flex;
+  max-width: 50%;
+  max-height: 60%;
+  padding-top: 50px;
+}
+
+h4 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.reccomended {
+  background-color: #f5c6ce;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  max-width: 98.3%;
+  padding: 25px;
+}
+
+.footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(177, 4, 111),
+    rgb(183, 77, 19)
+  );
+}
+
+@media screen and (width <=913px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
