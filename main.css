@@ -79,6 +79,10 @@ h5 {
   justify-content: space-around;
 }
 
+.container2 {
+  margin: 80px;
+}
+
 .image-container {
   display: flex;
   align-items: center;
@@ -94,7 +98,7 @@ h5 {
 .imageInnerContainer {
   display: flex;
   flex-direction: column;
-  align-items: center ;
+  align-items: center;
 }
 
 .shoe2 {
@@ -127,20 +131,31 @@ p {
   display: inline;
 }
 
+.sheree1 {
+  font-size: 18px;
+  color: black;
+}
+
 .sheree {
-  font: italic 1.2rem "Fira Sans", serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
 .sheree2 {
-  font: italic 1.2rem "Fira Sans", serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: left;
+}
+
+.quick {
+  color: white;
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .dotted-line {
   border-top: 1px dashed #000;
-  width: 60%;
-  height: 20;
+  width: 100%;
+  height: 20%;
 }
 
 aside {
@@ -166,23 +181,30 @@ h2 {
 }
 
 h3 {
-  border-bottom: 3px solid rgb(183, 77, 19);
+  border-bottom: 1px solid rgb(183, 77, 19);
+  width: 1002px;
+  margin-left: 180px;
 }
 
 .lorem {
   color: white;
   line-height: 1.6;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   padding-bottom: 10px;
   width: 392px;
 }
 
 .reviews {
-  color: rgb(183, 77, 19);
+  color: black;
   float: right;
   text-decoration: underline;
   font-size: 16px;
   font-family: serif;
+}
+
+.reviews2 {
+  color: rgb(183, 77, 19);
+  float: right;
 }
 
 .money {
@@ -222,23 +244,15 @@ button {
   padding-left: 180px;
 }
 
-/* .container3: {
-  content: "";
-  position: absolute;
-  background-color: rgb(183, 77, 19);
-} */
-
 .product {
-  padding-left: 180px;
-  padding-top: 35px;
   color: rgb(183, 77, 19);
   text-decoration: underline;
 }
 
-/* .details {
-  border-bottom: 3px solid rgb(183, 77, 19);
-} */
-
+#line {
+  border-bottom: 1px solid rgb(183, 77, 19);
+  padding: 5px;
+}
 .shoes {
   display: flex;
   max-width: 50%;
