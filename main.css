@@ -2,6 +2,7 @@ ul {
   display: flex;
   gap: 10px;
   list-style-type: none;
+  font-size: 16px;
 }
 
 a {
@@ -93,6 +94,7 @@ h5 {
     rgb(193, 20, 127),
     rgb(225, 83, 7)
   );
+  
 }
 
 .imageInnerContainer {
@@ -144,6 +146,8 @@ p {
 .sheree2 {
   font-family: "Times New Roman", Times, serif;
   text-align: left;
+  color: black;
+  font-size: 15px;
 }
 
 .quick {
@@ -194,6 +198,11 @@ h3 {
   width: 392px;
 }
 
+.women {
+  border-bottom: 3px solid rgb(183, 77, 19);
+  padding-bottom: 3px;
+}
+
 .reviews {
   color: black;
   float: right;
@@ -221,10 +230,10 @@ h3 {
 }
 
 .cents2 {
-  font-size: 15px;
-  margin-left: 3px;
+  font-size: 10px;
+  margin-left: 1px;
   position: relative;
-  top: -6px;
+  top: -3px;
 }
 
 button {
