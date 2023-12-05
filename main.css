@@ -38,7 +38,7 @@ a {
 
 .topnav-right {
   display: flex;
-  margin-left: auto;
+  margin-left: 580px;
   gap: 10px;
 }
 
@@ -94,7 +94,6 @@ h5 {
     rgb(193, 20, 127),
     rgb(225, 83, 7)
   );
-  
 }
 
 .imageInnerContainer {
