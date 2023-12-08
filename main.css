@@ -291,7 +291,7 @@ h4 {
   );
 }
 
-@media screen and (width <=913px) {
+@media screen and (width <=923px) {
   .container {
     display: flex;
     flex-direction: column;
